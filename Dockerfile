@@ -2,7 +2,7 @@ FROM node:lts-alpine as febuild
 WORKDIR /work
 
 COPY fe .
-
+# xingxing
 RUN yarn && yarn build
 
 
